@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 250;
+  font-display: swap;
+  src: url('../fonts/Gilroy-UltraLight.woff2') format('woff2'),
+    url('../fonts/Gilroy-UltraLight.woff') format('woff');
+}
+
+body {
+  font-family: 'Gilroy', serif;
+}
+
+.socs__link svg {
+  fill: black
+}
+
+.socs__link:hover svg {
+  fill: red
+}
+
+.card {
+  display: block;
+}
+
+.card--highlighted {
+  background: pink;
+}
+
+.card__title {
+  font-size: 20px;
+}
