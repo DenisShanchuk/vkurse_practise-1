@@ -7,37 +7,67 @@
   </head>
   <body>
     <h1>Gift store</h1>
-    <header>
-      <img
-        src="images/logo.svg"
-        alt="Логотип приложения Gift store">
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Главная</a>
-          </li>
-          <li>
-            <a href="#">О нас</a>
-          </li>
-          <li>
-            <a href="#">Наши сервисы</a>
-          </li>
-          <li>
-            <a href="#">Блог</a>
-          </li>
-        </ul>
-      </nav>
-      <button>Поиск подарков</button>
+    <header class="header">
+      <div class="content header__content header-content">
+        <div class="header-content__logo">
+          <img
+            src="images/logo.svg"
+            alt="Логотип приложения Gift store">
+        </div>
+        <nav class="header-content__nav">
+          <ul class="nav">
+            <li class="nav__item">
+              <a
+                href="/"
+                class="nav__link">
+                Главная
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link">
+                О нас
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link">
+                Наши сервисы
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#"
+                class="nav__link">
+                Блог
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-content__btn">Поиск подарков</button>
+      </div>
     </header>
     <main>
-      <section>
-        <h2>Найти подарок</h2>
-        <p>Найдите подарок жене или девушке</p>
-        <p>
-          Пытаетесь найти подарок жене или девушке?
+      <section class="find-gift">
+        <div class="content">
+          <div class="find-gift__content">
+            <h2>Найти подарок</h2>
+            <p class="find-gift__title">
+              Найдите
+              <br>
+              подарок жене
+              <br>
+              или девушке
+            </p>
+            <p class="find-gift__text">
+              Пытаетесь найти подарок жене или девушке?
           Нет проблем!
-        </p>
-        <button>Найти сейчас</button>
+            </p>
+            <button>Найти сейчас</button>
+          </div>
+        </div>
       </section>
       <section>
         <h2>Как мы работаем</h2>
