@@ -1,0 +1,40 @@
+@media screen and (max-width: 1100px) {
+  .card-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .registration {
+    flex-wrap: wrap;
+  }
+
+  .registration__content {
+    flex-basis: 100%;
+    order: 1;
+  }
+
+  .registration__buttons {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .find-gift__content {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .find-gift__title {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-navigation {
+    display: none;
+  }
+}
